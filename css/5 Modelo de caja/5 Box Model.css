@@ -1,0 +1,19 @@
+/*
+Content: Contenido de la caja (Contenido)
+Padding: Espacio entre el contenido y el borde de la caja (Relleno)
+Border: Linea que rodea el contenido y el padding de la caja (Borde)
+Margin: Es el espacio alrededor de la caja (Margen)
+*/
+
+div {
+    /*Color de fondo de la caja*/
+    background: red;
+    /*Para que se vea debemos ponerle height (altura) y width (anchura), porque la caja esta bacia*/
+    height: 10px;
+    width: 500px;
+
+}
+
+input {
+    width: 95%;
+}

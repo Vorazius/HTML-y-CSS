@@ -1,0 +1,31 @@
+p {
+    /*Color de la letra */
+    color: red;
+    /*Cambiar tipografia*/
+    /*Si la tipografia seleccionada tiene espacios se le debe poner comillas, ejemplo: "Lucida Sans" */
+    /*Podemos poner varias tipografias seguidas por si no funciona la anterior */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Cambiar tamaño de la letra, por defecto es 16px */
+    font-size: 25px;
+    /*Para determinar la anchura de la letra, en negrita se utiliza bold o el numero 700*/
+    font-weight: bold;
+    /*Estilo de la letra, pude ser cursiva (italic) o oblique que es menos inclinada que la italic */
+    font-style: italic;
+    /*Definir distancia que hay entre linea y linea */
+    line-height: 1.5;
+    /*Definir espacio entre letras */
+    letter-spacing: 1.5px;
+} 
+
+h1 {
+    /*Alinea el texto, puede ser center, left(start), right(end), justify...*/
+    text-align: center;
+    /*Para decorar el texto, subrayar(underline), tachar (line-though), subrayar arriba (overline)... */
+    text-decoration: underline overline;
+    /*Tanformar todo el texto a mayuscula(uppercase), minuscula(lowercase) o la primera letra de cada palabra en mayuscula (capitalize) */
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}

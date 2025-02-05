@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML y CSS</title>
+        <!--Para vincular el css usamos la etiqueta <link> con el atributo ´rel´ (relationship) para decir que relacion tiene el archivo que vamos a vincular,
+        tambien usamos el atributo ´href´ para poner el enlace del archivo css-->
+        <link rel="stylesheet" href="1 Enlazar CSS.css">
+    </head>
+    <body>
+        <h1>Formas de enlazar CSS</h1>
+        <h2>Forma 1</h2>
+        <!--Usamos el atributo ´style´ para darle estilo a un elemento, se le llama estilos en linea por que se le da a una sola linea-->
+        <!--Esta forma es una mala practica por que esta todo separado-->
+        <p style="color: red; font-size: 20px;">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores aperiam quisquam tempore ducimus velit maxime numquam ipsa sunt, saepe dolores ut earum totam doloremque cumque quae hic quaerat dolor modi.</p>
+
+        <h2>Forma 2</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sit ipsam tempora veritatis recusandae quis veniam inventore cupiditate, officia voluptates eligendi eius quas, impedit aliquam sunt perspiciatis corporis libero commodi facere!</p>
+        <!--Esta forma es mejor que la anterior pero aun asi no se recomienda, lo mejor es tener archivos separados-->
+        <style>
+            h1 {
+                color: blue;
+            }
+            p {
+                color: blueviolet;
+            }
+        </style>
+        <h2>Forma 3</h2>
+        <!--Creamos un archivo aparte para el CSS y lo enlazamos en el head-->
+        <ol>
+            <li>Elemento 1</li>
+            <li>Elemento 2</li>
+            <li>Elemento 3</li>
+        </ol>
+    </body>
+</html>

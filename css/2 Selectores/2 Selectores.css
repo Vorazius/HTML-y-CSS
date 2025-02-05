@@ -1,0 +1,23 @@
+/* La primera forma de seleccionar un elemento html es escribiendo el elemento que queremos modificar en general */
+h2 {
+    color: blue;
+}
+
+/* La segunda forma es poner la etiqueta <span> en una parte especifica del html */
+span {
+    color: red;
+}
+
+/* La tercera forma es poner el atributo ´class´ en el html a cada uno de los elementos que queremos modificar, de esta forma se modificaran todos los elementos
+que tengan una misma clase a la vez */
+/* Se debe poner un punto delante de la clase si usamos este metodo*/
+.faltante {
+    color: blueviolet;
+}
+
+/* La cuarta forma es poner el elemento ´id´, solo se utiliza una sola vez  para elementos claves */
+/* Es una mala practica usar el atributo id en mas de un elemento */
+/* Se debe poner una almoadilla delante del id */
+#clave {
+    color: chocolate;
+}

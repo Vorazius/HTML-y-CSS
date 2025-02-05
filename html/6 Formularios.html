@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <!--Para crear un formulario usamos la etiqueta <form>-->
+            <form>
+                <!--Para pedir un dato usamos la etiqueta <input> y le decimos el tipo de dato que vamos a pedir con el atributo `type`-->
+                <!--El atributo ´name´ se utiliza para (que el servidor pueda) identificar el input del que estamos hablando-->
+                <!--El atributo ´placeholder´ sirve para poner un texto dentro del input-->
+                <input type="text" name="usurname" placeholder="Escribe tu nombre">
+                <input type="date" name="fecha">
+                <input type="email">
+                <input type="number">
+                <!--El atributo `required` te obliga a escribir algo ese campo-->
+                <input type="password" required>
+                <input type="checkbox">
+                <input type="radio">
+                <input type="file">
+                <!--Si usamos `submit` ponemos el boton de enviar y si añadimos el atributo `value` podemos cambiar la palabra enviar por otra cosa-->
+                <input type="submit" value="Mandar">
+            </form>
+    </body>
+</html>

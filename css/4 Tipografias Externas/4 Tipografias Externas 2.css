@@ -1,0 +1,33 @@
+@font-face {
+    /*Ponemos el nombre que le vamos a dar a la tipografia*/
+    font-family: montserrat;
+    /*Ponemos la ruta de la tipografia que vamos a configurar*/
+    /*Tambien ponemos el formato para que el navegador lo carge mas rapido*/
+    src: url("Fonts Montserrat/Montserrat-Regular.ttf") format("truetype");
+    /*Ponemos el grosor de la tipografia que hemos configurado*/
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("Fonts Montserrat/Montserrat-Bold.ttf") format("truetype");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("Fonts Montserrat/Montserrat-Medium.ttf") format("truetype");
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("Fonts Montserrat/Montserrat-Thin.ttf") format("truetype");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url("Fonts Montserrat/Montserrat-Black.ttf") format("truetype");
+    font-weight: 900;
+}
